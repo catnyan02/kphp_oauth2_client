@@ -1,0 +1,23 @@
+{
+  "name": "nyan02/kphp_oauth2_client",
+  "description": "OAuth 2.0 Client Library for KPHP",
+  "type": "library",
+  "license": "MIT",
+  "config": {
+    "sort-packages": true
+  },
+  "require": {
+    "php": ">=7.4",
+    "vkcom/kphp-polyfills": "^1.0"
+  },
+  "authors": [
+    {
+      "name": "Nastya Nesterenko"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "nyan02\\kphp_oauth2_client\\": "src"
+    }
+  }
+}
