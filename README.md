@@ -1,11 +1,11 @@
 This package provides OAuth 2.0 client support for the KPHP
 
-###Installation
+### Installation
 To install, use composer:
 
 ```composer require nyan02/kphp_oauth2_client```
 
-###Usage
+### Usage
 This package implements Generic Provider. However, it is better to use
 specific providers. There are currently 2 supported providers:
 - google (nyan02/kphp_oauth2_google)
@@ -28,7 +28,7 @@ This framework allows to use the same flow for all the providers
 that inherit from this package. The only step that differs between
 providers is configuring a provider.
 
-###Authorization Code Flow
+### Authorization Code Flow
 After configuring provider we want to get Authorization Code. We use
 method getAuthorizationParameters() to get parameters from the provider
 including permission scopes and other info needed for generating
